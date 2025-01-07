@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `study` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `study`;
 -- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: study
@@ -56,7 +58,7 @@ CREATE TABLE `course_registering_tb` (
   `course_registering_information_id` int NOT NULL,
   `student_id` int NOT NULL,
   PRIMARY KEY (`course_registering_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -65,7 +67,7 @@ CREATE TABLE `course_registering_tb` (
 
 LOCK TABLES `course_registering_tb` WRITE;
 /*!40000 ALTER TABLE `course_registering_tb` DISABLE KEYS */;
-INSERT INTO `course_registering_tb` VALUES (1,1,1),(2,1,2),(3,1,3),(4,1,4),(5,2,2),(6,2,4),(7,3,1),(8,3,3),(9,4,1),(10,4,2),(11,4,3),(12,4,4),(13,5,1),(14,5,2),(15,6,1),(16,6,2),(17,6,3);
+INSERT INTO `course_registering_tb` VALUES (1,1,1),(2,1,2),(3,1,3),(4,1,4),(5,2,2),(6,2,4),(7,3,1),(8,3,3),(9,4,1),(10,4,2),(11,4,3),(12,5,1),(13,5,2),(14,6,1),(15,6,2),(16,6,3);
 /*!40000 ALTER TABLE `course_registering_tb` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -205,4 +207,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-01-07 17:07:03
+-- Dump completed on 2025-01-07 17:18:22
