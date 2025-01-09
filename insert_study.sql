@@ -1,5 +1,12 @@
+# insert into instructor_tb
+# 	(instructor_name)			instructor_id 는 Auto Increasement 를 걸어주었기때문에 생략 가능
+# values						하지만 instructor_name 은 명시해주어야함
+# 	('김교수'),
+#   ('박교수'),
+#   ('이교수');
+
 insert into instructor_tb
-	(instructor_id, instructor_name) 
+	# (instructor_id, instructor_name) 전체 생략 가능, 단 value를 넣을 때 주의
 values
 	(default, '김교수'), 
 	(default, '박교수'), 
